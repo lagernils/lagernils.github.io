@@ -11,6 +11,6 @@ Andersson, T., Kessel, D., Lager, N., Olme, E., & Reese, S. (2026). "Beyond Trut
 
 ## Work in progress
 
-Price effects of consolidation in the market for veterinary care.
+When Big Vet Comes to Town: Roll-Ups and the Price of Veterinary Care (working title).
 
 Ongoing project with Tommy Andersson. Studying properties of dynamic school switching.
