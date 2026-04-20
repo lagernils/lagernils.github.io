@@ -16,36 +16,40 @@ Lager, N. & Swahn, A. (2020). "3:12 -- Arbete eller Kapital? En rättvisare besk
 ## Opinion Articles
 
 <style>
-.article-scroller {
-  display: flex;
-  overflow-x: auto;
-  gap: 14px;
-  padding: 16px 0 20px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 12px 0 16px;
+  max-height: 440px;
+  overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #ccc transparent;
 }
-.article-scroller::-webkit-scrollbar {
-  height: 6px;
+.article-grid::-webkit-scrollbar {
+  width: 5px;
 }
-.article-scroller::-webkit-scrollbar-thumb {
+.article-grid::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 3px;
 }
+@media (max-width: 768px) {
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-height: 380px;
+  }
+}
 .article-card {
-  flex: 0 0 220px;
   display: flex;
   flex-direction: column;
   border: 1px solid #e0e0e0;
-  border-radius: 6px;
+  border-radius: 5px;
   overflow: hidden;
   background: #fff;
-  scroll-snap-align: start;
   transition: box-shadow 0.2s;
 }
 .article-card:hover {
-  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 .article-card a {
   text-decoration: none;
@@ -56,39 +60,39 @@ Lager, N. & Swahn, A. (2020). "3:12 -- Arbete eller Kapital? En rättvisare besk
 }
 .article-card__img {
   width: 100%;
-  height: 120px;
+  height: 90px;
   object-fit: cover;
   background-color: #f0f0f0;
 }
 .article-card__body {
-  padding: 10px 12px;
+  padding: 8px 10px;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 .article-card__source {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   color: #888;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 .article-card__title {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1.25;
   color: #222;
   margin-bottom: 0;
 }
 .article-card__date {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   color: #999;
   margin-top: auto;
-  padding-top: 6px;
+  padding-top: 4px;
 }
 </style>
 
-<div class="article-scroller">
+<div class="article-grid">
 
   <div class="article-card">
     <a href="https://www.dn.se/debatt/dagens-system-ar-byggt-for-att-skapa-orattvisa-betyg/" target="_blank" rel="noopener">
