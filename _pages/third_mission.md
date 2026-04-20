@@ -16,37 +16,30 @@ Lager, N. & Swahn, A. (2020). "3:12 -- Arbete eller Kapital? En rättvisare besk
 ## Opinion Articles
 
 <style>
-.article-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding: 12px 0 16px;
-  max-height: 440px;
+  max-height: 280px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #ccc transparent;
 }
-.article-grid::-webkit-scrollbar {
+.article-list::-webkit-scrollbar {
   width: 5px;
 }
-.article-grid::-webkit-scrollbar-thumb {
+.article-list::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 3px;
 }
-@media (max-width: 768px) {
-  .article-grid {
-    grid-template-columns: repeat(2, 1fr);
-    max-height: 380px;
-  }
-}
 .article-card {
-  display: flex;
-  flex-direction: column;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   overflow: hidden;
   background: #fff;
   transition: box-shadow 0.2s;
+  flex-shrink: 0;
 }
 .article-card:hover {
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -55,44 +48,50 @@ Lager, N. & Swahn, A. (2020). "3:12 -- Arbete eller Kapital? En rättvisare besk
   text-decoration: none;
   color: inherit;
   display: flex;
-  flex-direction: column;
-  height: 100%;
+  flex-direction: row;
+  align-items: stretch;
 }
 .article-card__img {
-  width: 100%;
-  height: 90px;
+  width: 130px;
+  min-height: 80px;
   object-fit: cover;
   background-color: #f0f0f0;
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .article-card__img {
+    width: 100px;
+  }
 }
 .article-card__body {
-  padding: 8px 10px;
-  flex: 1;
+  padding: 8px 12px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  min-width: 0;
 }
 .article-card__source {
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   color: #888;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 .article-card__title {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.3;
   color: #222;
   margin-bottom: 0;
 }
 .article-card__date {
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   color: #999;
-  margin-top: auto;
-  padding-top: 4px;
+  margin-top: 4px;
 }
 </style>
 
-<div class="article-grid">
+<div class="article-list">
 
   <div class="article-card">
     <a href="https://www.dn.se/debatt/dagens-system-ar-byggt-for-att-skapa-orattvisa-betyg/" target="_blank" rel="noopener">
@@ -111,7 +110,7 @@ Lager, N. & Swahn, A. (2020). "3:12 -- Arbete eller Kapital? En rättvisare besk
       <div class="article-card__body">
         <div class="article-card__source">Svenska Dagbladet</div>
         <div class="article-card__title">"Skatterabatterna för de rikaste måste få ett slut"</div>
-        <div class="article-card__date">2023</div>
+        <div class="article-card__date">2023-02-02</div>
       </div>
     </a>
   </div>
