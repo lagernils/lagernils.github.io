@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Third Mission"
-permalink: /third-mission/
+title: "Popular Writing"
+permalink: /popular-writing/
 author_profile: true
 ---
 
