@@ -13,4 +13,4 @@ Andersson, T., Kessel, D., Lager, N., Olme, E., & Reese, S. (2026). "Beyond Trut
 
 Price effects of consolidation in the market for veterinary care.
 
-Ongoing project with Tommy Andersson, Dany Kessel and Elisabet Olme. Studying properties of dynamic school switching.
+Ongoing project with Tommy Andersson. Studying properties of dynamic school switching.
