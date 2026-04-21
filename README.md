@@ -15,8 +15,8 @@ All pages live in `_pages/` and are Markdown or HTML files with YAML front matte
 | About (homepage) | `_pages/about.md` | `/` | Short bio and research interests |
 | Research | `_pages/research.md` | `/research/` | Published papers, work in progress |
 | Teaching | `_pages/teaching.html` | `/teaching/` | Courses taught (Lecturer and TA) |
-| CV | `_pages/cv.md` | `/cv/` | Link to downloadable PDF |
-| Popular Writing | `_pages/third_mission.md` | `/popular-writing/` | Policy briefs + horizontal card scroller of opinion articles with OG images |
+| CV | `_pages/cv.md` | `/cv/` | Embedded PDF viewer with built-in download |
+| Popular Writing | `_pages/third_mission.md` | `/popular-writing/` | Policy briefs + vertical scrollable list of opinion article cards with OG images |
 
 ### Key configuration
 
@@ -43,7 +43,7 @@ All pages live in `_pages/` and are Markdown or HTML files with YAML front matte
 |-----------|----------|
 | `files/` | Downloadable files. Currently: `Nils_Lager_CV.pdf` |
 | `images/` | Profile photo (`profile.jpg`), favicon files, rent article image |
-| `_sass/` | SCSS stylesheets (theme) |
+| `_sass/` | SCSS stylesheets (theme). Profile photo shape is set in `_sass/layout/_sidebar.scss` |
 | `assets/` | Compiled CSS/JS assets |
 
 ### Theme and layout
@@ -83,7 +83,7 @@ Replace `files/Nils_Lager_CV.pdf` with the new file (keep the same filename).
 
 ### Adding opinion articles to Popular Writing
 
-In `_pages/third_mission.md`, add a new `<div class="article-card">` block inside the `<div class="article-scroller">` container. Each card needs: an image URL (use the article's `og:image`), source name, title, date, and link.
+In `_pages/third_mission.md`, add a new `<div class="article-card">` block inside the `<div class="article-list">` container. Each card is a horizontal row: image on the left, source/title/date on the right. Use the article's `og:image` for the thumbnail.
 
 ## Running locally
 
