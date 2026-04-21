@@ -94,6 +94,17 @@ Lager, N. & Swahn, A. (2020). "3:12 -- Arbete eller Kapital? En rättvisare besk
 <div class="article-list">
 
   <div class="article-card">
+    <a href="https://www.etc.se/debatt/saa-kan-vi-knaecka-skatteparadisen" target="_blank" rel="noopener">
+      <img class="article-card__img" src="https://cdn.publisher-live.etc.nu/swp/uc3g8l/media/2024042407044_f329e4dba6652507d71cf26fc8f9488ddfd4124136bc39f1fe99c0d9d01fe7c9.jpg" alt="Article image" />
+      <div class="article-card__body">
+        <div class="article-card__source">ETC</div>
+        <div class="article-card__title">"Så kan vi knäcka skatteparadisen"</div>
+        <div class="article-card__date">2024-04-24</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="article-card">
     <a href="https://www.dn.se/debatt/dagens-system-ar-byggt-for-att-skapa-orattvisa-betyg/" target="_blank" rel="noopener">
       <img class="article-card__img" src="https://static.bonniernews.se/ba/6be35f07-bab4-4039-ba6c-c4ef7f87fa9d.jpeg?io=1&auto=webp&quality=80&crop=1200:630,smart&width=1200&height=630" alt="Article image" />
       <div class="article-card__body">
