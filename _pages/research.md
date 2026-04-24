@@ -11,6 +11,8 @@ Andersson, T., Kessel, D., Lager, N., Olme, E., Reese, S. (2026). "Beyond Truth-
 
 ## Work in progress
 
-When Big Vet Comes to Town: Roll-Ups and the Price of Veterinary Care (working title).
+**When Big Vet Comes to Town: Roll-Ups and the Price of Veterinary Care** *(working title)*
+<br>Studying the price effects of rapid consolidation through sequential acquisitions in the Swedish veterinary care market.
 
-Ongoing project with Tommy Andersson. Studying properties of dynamic school switching.
+**Dynamic School Switching** *(with Tommy Andersson)*
+<br>Studying properties of dynamic school switching mechanisms.
