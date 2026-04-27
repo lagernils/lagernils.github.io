@@ -28,6 +28,7 @@ $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
+$libertinus                 : "Libertinus Serif", "Linux Libertine", Georgia, Times, serif;
 
 /* Type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -39,9 +40,10 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family         : $libertinus;  // body text in Libertinus Serif
+$header-font-family         : $libertinus;  // headings in Libertinus Serif
+$caption-font-family        : $serif;       // captions stay Georgia for contrast
+// UI (nav, masthead, sidebar, archive, footer) keeps using $sans-serif by design.
 
 /* ==========================================================================
    Breakpoints

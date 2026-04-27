@@ -1,0 +1,46 @@
+/* ==========================================================================
+   LIBERTINUS SERIF — self-hosted webfont
+   Font files in assets/fonts/libertinus/.
+   Format priority: woff2 (best) → woff → otf. Browsers pick the first they
+   support and that exists. Add .woff2 versions for ~50% size savings.
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Libertinus Serif';
+  src: url('/assets/fonts/libertinus/LibertinusSerif-Regular.woff2') format('woff2'),
+       url('/assets/fonts/libertinus/LibertinusSerif-Regular.woff')  format('woff'),
+       url('/assets/fonts/libertinus/LibertinusSerif-Regular.otf')   format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Libertinus Serif';
+  src: url('/assets/fonts/libertinus/LibertinusSerif-Italic.woff2') format('woff2'),
+       url('/assets/fonts/libertinus/LibertinusSerif-Italic.woff')  format('woff'),
+       url('/assets/fonts/libertinus/LibertinusSerif-Italic.otf')   format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Libertinus Serif';
+  src: url('/assets/fonts/libertinus/LibertinusSerif-Bold.woff2') format('woff2'),
+       url('/assets/fonts/libertinus/LibertinusSerif-Bold.woff')  format('woff'),
+       url('/assets/fonts/libertinus/LibertinusSerif-Bold.otf')   format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Libertinus Serif';
+  src: url('/assets/fonts/libertinus/LibertinusSerif-BoldItalic.woff2') format('woff2'),
+       url('/assets/fonts/libertinus/LibertinusSerif-BoldItalic.woff')  format('woff'),
+       url('/assets/fonts/libertinus/LibertinusSerif-BoldItalic.otf')   format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
