@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "About me"
+title: "Nils Lager"
+description: "PhD student in economics at the Stockholm School of Economics, working on school choice, market design and applied industrial organization."
 author_profile: true
 redirect_from:
   - /about/

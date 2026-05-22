@@ -14,4 +14,34 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Structured data: Person entity — connects this site to all of Nils Lager's profiles -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nils Lager",
+  "url": "{{ site.url }}",
+  "image": "{{ site.url }}/images/profile.jpg",
+  "jobTitle": "PhD Student in Economics",
+  "description": "Nils Lager is a PhD student in economics at the Stockholm School of Economics, working on school choice, market design and applied industrial organization.",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Stockholm School of Economics",
+    "url": "https://www.hhs.se"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Oxford"
+  },
+  "knowsAbout": ["School choice", "Market design", "Matching theory", "Mechanism design", "Industrial organization", "Education economics"],
+  "sameAs": [
+    "https://scholar.google.se/citations?hl=sv&user=JdTFVZQAAAAJ",
+    "https://x.com/LagerNils",
+    "https://github.com/lagernils",
+    "https://www.linkedin.com/in/nils-lager-66052165/",
+    "https://www.hhs.se/en/persons/l/lager-nils/"
+  ]
+}
+</script>
+
 <!-- end custom head snippets -->

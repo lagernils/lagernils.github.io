@@ -34,7 +34,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.se/citations?hl=sv&user=JdTFVZQAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # URL
@@ -73,7 +73,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "LagerNils"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -129,7 +129,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "_1ABgtsZhQggref759oqP_rqHVtt6-C_c1MkJ8FotaY"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -146,10 +146,15 @@ og_image                 :  # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+# The Person schema (name, jobTitle, affiliation, and sameAs links to all
+# profiles) is defined as a richer block in _includes/head/custom.html.
+# The theme's auto-generated Person JSON-LD in _includes/seo.html only fires
+# when `social` is set, so it is intentionally left unset here to avoid a
+# duplicate structured-data block.
+# social:
+#   type                   :
+#   name                   :
+#   links:
 
 
 # Analytics
