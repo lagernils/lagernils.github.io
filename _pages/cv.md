@@ -54,6 +54,6 @@ redirect_from:
 </div>
 
 <div class="cv-embed-mobile">
-  <p>PDF preview is not supported on mobile browsers.</p>
+  <p>View my full CV below.</p>
   <a href="/files/Nils_Lager_CV.pdf" target="_blank">Open CV (PDF)</a>
 </div>
