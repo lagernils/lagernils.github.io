@@ -18,6 +18,24 @@ author_profile: true
 *Beyond academic writing, I contribute opinion pieces in different capacities and across a range of outlets, on topics including school choice, grading systems, housing, fiscal equalisation, and taxation; a selection is linked below.*
 
 <style>
+.article-list-wrapper {
+  position: relative;
+  max-height: 280px;
+}
+.article-list-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.article-list-wrapper.scrolled-to-bottom::after {
+  opacity: 0;
+}
 .article-list {
   display: flex;
   flex-direction: column;
@@ -93,6 +111,7 @@ author_profile: true
 }
 </style>
 
+<div class="article-list-wrapper">
 <div class="article-list">
 
   <div class="article-card">
@@ -206,3 +225,20 @@ author_profile: true
   </div>
 
 </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var list = document.querySelector(".article-list");
+  var wrapper = document.querySelector(".article-list-wrapper");
+  if (list && wrapper) {
+    list.addEventListener("scroll", function() {
+      if (list.scrollTop + list.clientHeight >= list.scrollHeight - 5) {
+        wrapper.classList.add("scrolled-to-bottom");
+      } else {
+        wrapper.classList.remove("scrolled-to-bottom");
+      }
+    });
+  }
+});
+</script>
