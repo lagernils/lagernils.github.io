@@ -14,5 +14,5 @@ Andersson, T., Kessel, D., Lager, N., Olme, E., & Reese, S. (2026). "Beyond Trut
 **When Big Vet Comes to Town: Roll-Ups and the Price of Veterinary Care** *(working title)*
 <br>Studying the price effects of rapid consolidation through sequential acquisitions in the Swedish veterinary care market.
 
-**Unlocking Welfare Gains in School Switches** *(working title, with Tommy Andersson)*
+**Unlocking Legal Efficiency Gains in School Switch Programs** *(working title, with Tommy Andersson and Dany Kessel)*
 <br>Studying properties of dynamic school switching mechanisms.
