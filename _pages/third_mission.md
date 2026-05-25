@@ -44,19 +44,19 @@ author_profile: true
   max-height: 280px;
   overflow-y: scroll;
   scrollbar-width: thin;
-  scrollbar-color: #ccc transparent;
+  scrollbar-color: #bbb #f0f0f0;
 }
 .article-list::-webkit-scrollbar {
-  width: 5px;
   -webkit-appearance: none;
+  width: 6px;
 }
 .article-list::-webkit-scrollbar-track {
   background: #f0f0f0;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 .article-list::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 3px;
+  background-color: rgba(0,0,0,0.25);
+  border-radius: 4px;
 }
 .article-card {
   border: 1px solid #e0e0e0;
