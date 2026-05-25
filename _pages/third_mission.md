@@ -42,12 +42,17 @@ author_profile: true
   gap: 10px;
   padding: 12px 0 16px;
   max-height: 280px;
-  overflow-y: auto;
+  overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: #ccc transparent;
 }
 .article-list::-webkit-scrollbar {
   width: 5px;
+  -webkit-appearance: none;
+}
+.article-list::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 3px;
 }
 .article-list::-webkit-scrollbar-thumb {
   background: #ccc;
