@@ -11,7 +11,7 @@ Andersson, T., Kessel, D., Lager, N., Olme, E., & Reese, S. (2026). "Beyond Trut
 
 ## Working Papers
 
-Andersson, T., Kessel, D., & Lager, N. (2026). "Unlocking Legal Efficiency Gains in School Switch Programs". Working paper. [[Download]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6815057)
+Andersson, T., Kessel, D., & Lager, N. (2026). "Unlocking Legal Efficiency Gains in School Switch Programs". *(Revise & Resubmit, Economics Letters.)* [[Download]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6815057)
 
 ## Work in Progress
 
