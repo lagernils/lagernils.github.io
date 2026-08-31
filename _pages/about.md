@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD student in Economics at the Stockholm School of Economics, with an MPhil from the University of Oxford. My research interests are in education, school choice, market design and applied IO. 
+I am a fourth-year PhD student in Economics at the Stockholm School of Economics, with an MPhil from the University of Oxford. My research interests are in education, school choice, market design and applied IO. 
 
 Beyond my academic work, I have been involved in the practical implementation of centralised school admissions in Sweden since 2019, working with school districts on issues related to mechanism design, priority rules, and school supply planning.
 
