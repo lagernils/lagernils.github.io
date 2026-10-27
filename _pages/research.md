@@ -18,5 +18,8 @@ Lager, N. (2026). "Roll-Ups and Mark-Ups: Evidence on Extractive Takeovers in Ve
 
 ## Work in Progress
 
-- The interplay of school choice to high schools and university programs in Sweden.
-- Allocation of expectant mothers to birth clinics in Region Stockholm.
+**Delivering Quality: The Quality and Organisation of Maternity Care in Sweden**
+<br>Studying mothers' preferences over birth clinics and clinic value-added, using the algorithmic placement of expectant mothers in Region Stockholm. The broader project also covers other aspects, such as the role of midwives and the design of the placement mechanism.
+
+**How High Schools Shape Preferences for University Programs**
+<br>Studying the interplay between school choice to high schools and later choices of university programs in Sweden.
