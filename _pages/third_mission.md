@@ -3,6 +3,7 @@ layout: archive
 title: "Popular Writing"
 permalink: /popular-writing/
 author_profile: true
+description: "Policy briefs and opinion articles by Nils Lager on school choice, grading, housing, fiscal equalisation and taxation."
 ---
 
 ## Policy Briefs
@@ -235,6 +236,17 @@ author_profile: true
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  // If a newspaper removes or moves its preview image, swap in a neutral placeholder
+  // instead of showing a broken-image icon.
+  document.querySelectorAll(".article-card__img").forEach(function(img) {
+    var fallback = function() {
+      img.onerror = null;
+      img.src = "/images/article-placeholder.svg";
+    };
+    img.addEventListener("error", fallback);
+    if (img.complete && img.naturalWidth === 0) { fallback(); }
+  });
+
   var list = document.querySelector(".article-list");
   var wrapper = document.querySelector(".article-list-wrapper");
   if (list && wrapper) {

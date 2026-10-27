@@ -3,6 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+description: "Curriculum vitae of Nils Lager, PhD student in Economics at the Stockholm School of Economics."
 redirect_from:
   - /resume
 ---
@@ -50,7 +51,7 @@ redirect_from:
 </style>
 
 <div class="cv-embed-desktop">
-  <iframe src="/files/Nils_Lager_CV.pdf"></iframe>
+  <iframe src="/files/Nils_Lager_CV.pdf" title="CV of Nils Lager (PDF)"></iframe>
 </div>
 
 <div class="cv-embed-mobile">
